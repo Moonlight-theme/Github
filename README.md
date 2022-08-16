@@ -13,17 +13,17 @@
 
 </div>
 
-<h2 style="display: flex; flex-direction: row; justify-content: start;"> <img width="15px" alt="Abod1960" src="https://i.imgur.com/ZGdXKdI.png"> Description</h2>
+<h2 style="display: flex; flex-direction: row; justify-content: start;"> <img width="18px" alt="Abod1960" src="https://i.imgur.com/ZGdXKdI.png"> Description</h2>
 
 A simple moonlight theme for Github.
 
-<h2 style="display: flex; flex-direction: row; justify-content: start;"> <img width="15px" alt="Abod1960" src="https://i.imgur.com/47tcmEc.png"> Utilization</h2>
+<h2 style="display: flex; flex-direction: row; justify-content: start;"> <img width="18px" alt="Abod1960" src="https://i.imgur.com/47tcmEc.png"> Utilization</h2>
 
 1. get [stylus](https://add0n.com/stylus.html) extension.
 2. download [moonlight github](https://github.com/Moonlight-color-theme/Github/raw/main/code/moonlight-github.user.css)
 
   
-<h2 style="display: flex; flex-direction: row; justify-content: start;"> <img width="15px" alt="Abod1960" src="https://i.imgur.com/eK12XXt.png"> Author</h2>
+<h2 style="display: flex; flex-direction: row; justify-content: start;"> <img width="18px" alt="Abod1960" src="https://i.imgur.com/eK12XXt.png"> Author</h2>
 
 
 
@@ -35,11 +35,11 @@ A simple moonlight theme for Github.
 
 [+ some awesome contributors](https://github.com/Moonlight-color-theme/new-port-template/graphs/contributors)
   
-<h2 style="display: flex; flex-direction: row; justify-content: start;"> <img width="15px" alt="Abod1960" src="https://i.imgur.com/NXaOnPt.png"> Show your support</h2>
+<h2 style="display: flex; flex-direction: row; justify-content: start;"> <img width="18px" alt="Abod1960" src="https://i.imgur.com/NXaOnPt.png"> Show your support</h2>
 
 Give a ⭐️ if you like this port!
   
-<h2 style="display: flex; flex-direction: row; justify-content: start;"> <img width="15px" alt="Abod1960" src="https://i.imgur.com/8zmDXkV.png"> License</h2>
+<h2 style="display: flex; flex-direction: row; justify-content: start;"> <img width="18px" alt="Abod1960" src="https://i.imgur.com/8zmDXkV.png"> License</h2>
 
 Copyright © 2022 [Abod1960](https://github.com/Abod1960)<br>
 This project is licensed under the [GNU General Public](https://github.com/Moonlight-color-theme/Github/blob/main/LICENSE) license.<br>
