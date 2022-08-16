@@ -15,13 +15,12 @@
 
 <h2 style="display: flex; flex-direction: row; justify-content: start;"> <img width="15px" alt="Abod1960" src="https://i.imgur.com/ZGdXKdI.png"> Description</h2>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras efficitur nulla elit, in mollis mi sollicitudin sed. Aliquam auctor mauris lobortis tempor feugiat. Curabitur nec tempus lorem. Aenean condimentum et felis eget ultricies. Phasellus vulputate elit nibh, eu rhoncus augue rhoncus sit amet.
+-
 
 <h2 style="display: flex; flex-direction: row; justify-content: start;"> <img width="15px" alt="Abod1960" src="https://i.imgur.com/47tcmEc.png"> Utilization</h2>
 
 1. get [stylus](https://add0n.com/stylus.html) extension.
-2. download [moonlight github]()
-3. then... idk 😅
+2. download [moonlight github](https://github.com/Moonlight-color-theme/Github/raw/main/code/moonlight-github.user.css)
 
   
 <h2 style="display: flex; flex-direction: row; justify-content: start;"> <img width="15px" alt="Abod1960" src="https://i.imgur.com/eK12XXt.png"> Author</h2>
@@ -43,6 +42,5 @@ Give a ⭐️ if you like this port!
 <h2 style="display: flex; flex-direction: row; justify-content: start;"> <img width="15px" alt="Abod1960" src="https://i.imgur.com/8zmDXkV.png"> License</h2>
 
 Copyright © 2022 [Abod1960](https://github.com/Abod1960)<br>
-This project is licensed under the [GNU General Public](https://github.com/Moonlight-color-theme/new-port-template/blob/main/LICENSE) license.<br>
-```Delete this section if there were no license```
+This project is licensed under the [GNU General Public](https://github.com/Moonlight-color-theme/Github/blob/main/LICENSE) license.<br>
 
