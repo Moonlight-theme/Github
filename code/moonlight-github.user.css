@@ -1,0 +1,1355 @@
+
+/* ==UserStyle==
+@name         Moonlight GitHub
+@description  A color theme inspired by the camping vibe 🏕 for Github
+@namespace    https://github.com/Moonlight-color-theme/Github
+@homepageURL  https://moonlight.nicepage.io
+@supportURL   https://github.com/Moonlight-color-theme/Github/issues
+@updateURL    https://github.com/Moonlight-color-theme/Github/raw/main/code/moonlight-github.user.css
+@author       Abod1960 <abod1960.work@gmail.com> (https://abod1960.cf)
+@version      1.0
+@license      GPL-3.0
+==/UserStyle== */
+
+
+@-moz-document url-prefix("https://github.com") {
+@import url("https://use.typekit.net/klk3nty.css");
+:root {
+    --Light-I: #c0cedd;
+    --Light-II: #99a0a8;
+    --Dark-I: #191f28;
+    --Dark-II: #1f2730;
+    --Dark-III: #374656;
+    --Accent-I: #c69f68;
+    --Accent-II: #93764d;
+    --Accent-III: #93764d;
+    --Color-I: #c68768;
+    --Color-VI: #9fc76d;
+    --Color-II: #c66868;
+    /*-----------------*/
+    --color-accent-emphasis: #93764d!important;
+}
+
+body {
+    background: var(--Dark-I);
+    color: var(--Light-I);
+    /* font-family: "Rubik", sans-serif;*/
+}
+
+.Box,
+.color-bg-primary,
+.gh-header,
+.Box-row--gray {
+    background: var(--Dark-II) !important;
+    border-radius: 7px !important;
+}
+
+.Box-header--blue {
+    background: var(--Dark-II)
+}
+
+.Box.mb-3 {
+    background: var(--Dark-II) !important;
+    border-radius: 7px !important;
+    border: solid var(--Dark-II);
+}
+
+.Box-header--blue {
+    border-radius: 7px;
+}
+
+a {
+    color: var(--Accent-I)
+}
+
+.color-bg-secondary,
+.timeline-comment,
+.timeline-comment-header,
+.gh-header .gh-header-sticky.is-stuck + .gh-header-shadow,
+.color-bg-tertiary,
+.color-bg-canvas-inset,
+.markdown-body img,
+.rgh-clean-dashboard .js-news-feed-event-group,
+.rgh-clean-dashboard .dashboard .flex-items-baseline.py-3 {
+    background: var(--Dark-II) !important;
+    color: var(--Light-I);
+    border: none;
+}
+
+.Header,
+.header-search-wrapper,
+.jump-to-field-active {
+    background: var(--Dark-II)
+}
+
+.timeline-comment--caret::before {
+    background-color: var(--Dark-I) !important;
+}
+
+.Header-link:hover {
+    color: var(--Dark-III);
+    transition-duration: 0.2s;
+}
+
+.State--open {
+    background: var(--Color-VI);
+    color: var(--Dark-III);
+    border: none;
+}
+
+.gh-header-meta,
+.Link--secondary,
+.color-text-secondary,
+.color-text-tertiary,
+.UnderlineNav-octicon,
+.UnderlineNav-item {
+    color: var(--Light-I) !important;
+}
+
+.Link--secondary:hover,
+.social-count:hover {
+    color: var(--Accent-I) !important;
+}
+
+.jump-to-suggestions-results-container .navigation-focus .jump-to-suggestions-path,
+.jump-to-suggestions-results-container [aria-selected="true"] .jump-to-suggestions-path {
+    background: var(--Dark-III);
+    border: none;
+}
+
+.subnav-links {
+    background-color: var(--Dark-II);
+    border-radius: 7px;
+}
+.jump-to-suggestions {
+    box-shadow: none;
+    border-radius: 7px;
+    border: none;
+}
+
+.UnderlineNav .Counter {
+    background: var(--Dark-II);
+    color: var(--Light-I);
+}
+
+.UnderlineNav-item.selected,
+.UnderlineNav-item[aria-current]:not([aria-current="false"]),
+.UnderlineNav-item[role="tab"][aria-selected="true"] {
+    border-bottom-color: var(--Accent-I)
+}
+
+.btn.hover,
+.btn:hover,
+[open] > .btn,
+.btn,
+.social-count {
+    background: var(--Dark-II);
+    border: none;
+}
+
+.text-pink {
+    color: var(--Accent-I) !important;
+}
+
+.btn .octicon,
+.subnav-search-icon,
+.subnav-search-input,
+.subnav-search-input::placeholder {
+    color: var(--Light-I);
+}
+
+.SelectMenu-modal {
+    border: none;
+    border-radius: 7px;
+    background: var(--Dark-II);
+    box-shadow: none;
+}
+
+.SelectMenu-item,
+.SelectMenu-list {
+    background: var(--Dark-II);
+}
+
+.menu {
+    background: var(--Dark-II);
+    border-radius: 7px;
+    border: none;
+}
+
+.menu-item,
+.repo-language-color {
+    border: none;
+}
+
+.input-contrast,
+.input-contrast:focus {
+    background: var(--Dark-II);
+    border: none;
+}
+
+.form-control.focus,
+.form-control:focus,
+.form-select.focus,
+.form-select:focus {
+    box-shadow: none;
+}
+
+.open.octicon {
+    color: var(--Color-VI)
+}
+
+.Link--primary:hover,
+.p-label:hover,
+.team-mention:hover,
+.user-mention:hover,
+.Link--muted:hover {
+    color: var(--Accent-I) !important;
+}
+
+.p-label,
+.repo {
+    color: var(--Light-I)
+}
+
+.color-border-secondary,
+.border-bottom,
+.py-3,
+.rgh-clean-dashboard .dashboard .js-all-activity-header + div {
+    border: none !important;
+}
+
+.Link--muted {
+    color: var(--Light-I) !important;
+}
+
+.rgh-clean-dashboard .dashboard .flex-items-baseline .f6.mt-2 {
+    opacity: 100% !important;
+}
+
+.input-contrast::placeholder {
+    color: var(--Light-I)
+}
+
+.f4 > a {
+    color: var(--Light-I)
+}
+
+.owner .text-normal,
+.btn-primary.disabled,
+.btn-primary:disabled,
+.btn-primary[aria-disabled="true"] {
+    color: var(--Light-I) !important;
+}
+
+.text-bold.min-width-0.flex-auto > span,
+.text-bold.min-width-0.flex-auto,
+.TimelineItem-badge {
+    color: var(--Light-I)
+}
+
+.color-text-success {
+    color: var(--Color-VI) !important;
+}
+
+.discussion-timeline-actions,
+.page-responsive .previewable-comment-form .comment-form-head.tabnav,
+.tabnav-tab.selected,
+.tabnav-tab[aria-current]:not([aria-current="false"]),
+.tabnav-tab[aria-selected="true"],
+.timeline-comment--caret.current-user::before {
+    background: var(--Dark-I);
+    border: none;
+}
+
+.TimelineItem::before,
+.TimelineItem-badge {
+    border: none;
+}
+
+.TimelineItem-badge svg {
+    fill: var(--Accent-I) !important;
+}
+
+.color-text-danger {
+    color: var(--Color-II) !important;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled,
+.btn-primary[aria-disabled="true"] {
+    background: var(--Color-VI);
+    color: var(--Dark-III)!important;
+    border: none;
+    opacity: 70%
+}
+
+.dropdown-menu,
+.merge-status-item,
+.merge-status-list {
+    background: var(--Dark-II);
+    border: none;
+    box-shadow: none;
+    border-radius: 7px;
+}
+
+.checks-list-item.selected .checks-list-item-name {
+    background: var(--Accent-I) !important;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.color-bg-success-inverse {
+    background: var(--Color-VI) !important;
+    color: var(--Dark-III);
+}
+
+.commit-ref {
+    border-radius: 10px;
+    background: var(--Accent-I)
+}
+
+.commit-ref > .css-truncate-target > a {
+    color: var(--Light-I)
+}
+
+.full-commit,
+.full-commit .commit-meta,
+.file {
+    background: var(--Dark-I);
+    border: none;
+}
+
+.file-header,
+.file {
+    background: var(--Dark-II);
+    border-radius: 7px;
+}
+.file-header {
+    border-bottom: 0px solid var(--color-border-default);
+}
+.js-expandable-line:hover .blob-num:not(:hover) .directional-expander:first-child,
+.js-expandable-line:hover .blob-num:not(:hover) + .blob-code,
+.blob-num-expandable .directional-expander:hover,
+.blob-num-expandable .directional-expander,
+tr.js-expandable-line:nth-child(16) > td:nth-child(2),
+.blob-expanded .blob-code,
+.blob-expanded .blob-num,
+.btn.selected,
+.btn[aria-selected="true"] {
+    background: var(--Dark-II) !important;
+}
+
+tr.js-expandable-line:nth-child(56) > td:nth-child(2) {
+    background: var(--Dark-II) !important;
+}
+
+tr:not(.blob-expanded) + .blob-expanded .blob-code,
+tr:not(.blob-expanded) + .blob-expanded .blob-num,
+.blob-expanded + tr:not(.blob-expanded) .blob-code,
+.blob-expanded + tr:not(.blob-expanded) .blob-num {
+    border: none;
+}
+
+tr.js-expandable-line:nth-child(16) {
+    border-bottom-left-radius: 20px !important;
+}
+
+.js-expandable-line:hover .blob-num:not(:hover) .directional-expander:first-child,
+.js-expandable-line:hover .blob-num:not(:hover) + .blob-code {
+    background: var(--Accent-I) !important;
+}
+
+.blob-code-deletion .x,
+.blob-code-deletion,
+.blob-num-deletion {
+    background: var(--Color-II)
+}
+
+.blob-code-addition,
+.blob-code-addition .x,
+.blob-num-addition {
+    background: var(--Color-VI);
+    color: var(--Dark-III);
+}
+
+.blob-num-addition,
+.commit-branches {
+    color: var(--Light-I)
+}
+
+.blob-code-inner,
+.blob-code-deletion .x,
+.blob-code-addition .x {
+    color: #FFFFFF
+}
+
+.pl-smw,
+.pl-v {
+    color: var(--Color-I)
+}
+
+.blob-num-deletion {
+    color: var(--Light-I)
+}
+
+.upload-enabled.focused {
+    box-shadow: none;
+}
+
+.upload-enabled textarea {
+    border: none;
+}
+
+.btn-link,
+.btn-outline:hover,
+[open] > .btn-outline,
+.btn-outline,
+[open] > .btn-outline {
+    color: var(--Accent-I);
+}
+
+.diffstat-block-added {
+    outline: none;
+    background: var(--Color-VI);
+    color: var(--Dark-III);
+}
+
+.diffstat-block-deleted {
+    outline: none;
+    background: var(--Color-II);
+}
+
+.diffstat-block-neutral {
+    outline: none;
+    background: var(--Dark-II)
+}
+
+a > .css-truncate,
+.follow-list .follow-list-info {
+    color: var(--Light-I);
+}
+
+.tabnav-tab,
+.Counter {
+    border: none;
+}
+
+.Counter {
+    background: var(--Dark-II)
+}
+
+.btn-outline.disabled,
+.btn-outline:disabled,
+.btn-outline[aria-disabled="true"],
+.BtnGroup > a {
+    background: var(--Dark-II);
+    color: var(--Light-I);
+}
+
+.btn-outline:disabled:hover {
+    color: var(--Accent-I)
+}
+
+.Box {
+    border: solid 0px var(--Dark-III);
+    box-shadow: 0px 0px 20px 0px #0000002b !important;
+    padding: 4px;
+}
+
+.border,
+.dropdown-divider {
+    border: none !important;
+}
+
+#feature-enrollment-toggle > button {
+    color: var(--Light-I);
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background: var(--Dark-III)
+}
+
+.css-truncate.css-truncate-target.width-fit.color-text-primary.text-left > span:hover,
+.js-user-status-details.details-reset.details-overlay.details-overlay-dark:hover {
+    color: var(--Accent-I)
+}
+
+.Box-header {
+    background: var(--Dark-II);
+    border: none;
+}
+
+.blankslate p,
+.blankslate-icon,
+.issue-meta-section .octicon,
+.TimelineItem--condensed .TimelineItem-badge {
+    color: var(--Light-I)
+}
+
+.subnav-item.selected,
+.subnav-item[aria-current]:not([aria-current="false"]),
+.subnav-item[aria-selected="true"] {
+    background: var(--Accent-I);
+    border: none;
+}
+
+.merged.octicon {
+    color: var(--Accent-II)
+}
+
+.TimelineItem-badge.color-text-white.color-bg-danger-inverse[style*=background-color] {
+    --color-done-emphasis: var(--Color-II) !important;
+}
+
+.issue-closed-done .octicon-issue-closed,
+.issue-closed-done .octicon-issue-closed.closed {
+    color: var(--Color-II)
+}
+
+.js-issue-row .text-gray [aria-label*="approval"]::before,
+.js-issue-row .color-text-secondary [aria-label*="approval"]::before {
+    color: var(--Color-VI) !important;
+    color: var(--Dark-III);
+}
+
+.rgh-collaborator {
+    border: none !Important;
+}
+
+.State--merged,
+.rgh-clean-conversation-headers-non-default-branch {
+    color: var(--Light-I);
+    background: var(--Accent-II);
+    border: none;
+}
+
+.signed-commit-badge.verified:hover {
+    border: none;
+}
+
+.signed-commit-badge.verified,
+.signed-commit-verified-label,
+.signed-commit-header .octicon-verified {
+    color: var(--Color-VI)
+}
+
+.TimelineItem-break {
+    background: var(--Dark-I);
+    border: none;
+}
+
+.btn {
+    border-radius: 7px;
+}
+
+.diffbar,
+.signed-commit-header,
+.ajax-pagination-form .ajax-pagination-btn:focus,
+.ajax-pagination-form .ajax-pagination-btn:hover,
+.ajax-pagination-form .ajax-pagination-btn:focus,
+.ajax-pagination-form .ajax-pagination-btn {
+    background: var(--Dark-II);
+    color: var(--Light-I);
+    border: none;
+}
+.diffbar,
+.signed-commit-header,
+.ajax-pagination-form .ajax-pagination-btn:focus,
+.ajax-pagination-form .ajax-pagination-btn:hover,
+.ajax-pagination-form .ajax-pagination-btn:focus,
+.ajax-pagination-form .ajax-pagination-btn:hover {
+    background: var(--Dark-III);
+    color: var(--Light-I);
+}
+
+.State--closed {
+    background: var(--Color-II);
+    color: var(--Light-I);
+    border: none;
+}
+
+.markdown-body code,
+.markdown-body tt {
+    background: var(--Dark-II)
+}
+
+.js-activity-overview-graph g path {
+    fill: var(--Dark-III);
+    stroke: var(--Accent-I);
+}
+.js-activity-overview-graph g ellipse {
+    fill: var(--Dark-III);
+    stroke: var(--Accent-I);
+}
+.js-activity-overview-graph g line {
+    fill: var(--Dark-III);
+    stroke: var(--Accent-I);
+}
+.filter-item.selected,
+.filter-item[aria-current]:not([aria-current="false"]),
+.filter-item[aria-selected="true"] {
+    background: var(--Accent-I);
+    color: var(--Dark-II)!important;
+}
+
+.subnav-item {
+    border: none;
+}
+
+.color-bg-canvas {
+    background: var(--Dark-I) !important;
+}
+
+.Progress-item.rounded-2[style*="background-color"] {
+    background-color: var(--Color-VI) !important;
+    color: var(--Dark-III);
+}
+
+.ContributionCalendar-day,
+.ContributionCalendar-day[data-level="0"] {
+    fill: var(--Dark-II)
+}
+
+.ContributionCalendar-day[data-level="1"] {
+    fill: var(--Accent-I);
+}
+
+.ContributionCalendar-day[data-level="2"] {
+    fill: var(--Accent-II);
+}
+
+.ContributionCalendar-day[data-level="3"] {
+    fill: var(--Accent-III);
+}
+
+.ContributionCalendar-day[data-level="4"] {
+    fill: var(--Color-I);
+}
+
+.gist-snippet .link-overlay .link {
+    background: var(--Accent-I);
+    border-bottom-left-radius: 10px;
+}
+
+.form-control {
+    background-color: var(--Dark-II);
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+    background: var(--Dark-II)
+}
+
+.flash {
+    background-color: var(--Dark-III);
+    border: none;
+    border-radius: 7px;
+    color: var(--Light-I);
+}
+
+.label.color-bg-info-inverse {
+    background-color: var(--Accent-I) !important;
+    border: none;
+    color: var(--Light-I);
+    text-transform: lowercase !important;
+}
+
+.hx_color-icon-directory,
+.color-icon-tertiary,
+.Counter--secondary {
+    color: var(--Accent-I) !important;
+}
+
+.Box-body.p-0.blob-wrapper.data.type-text.gist-border-0.rgh-linkified-code {
+    background-color: var(--Dark-II)
+}
+
+.menu-item.selected,
+.menu-item[aria-current]:not([aria-current="false"]),
+.menu-item[aria-selected="true"],
+.menu-item:hover {
+    background-color: var(--Dark-III)
+}
+
+.menu-item.selected::before,
+.menu-item[aria-current]:not([aria-current="false"])::before,
+.menu-item[aria-selected="true"]::before {
+    background: var(--Accent-I)
+}
+
+.Box-row--focus-gray.navigation-focus {
+    background-color: var(--Dark-III)
+}
+
+.community-checklist .checklist-dot {
+    color: var(--orange)
+}
+
+.d-flex.flex-auto.flex-justify-center.py-6,
+.project-header,
+.project-pane {
+    background: var(--Dark-I);
+}
+
+.btn.btn-sm.btn-with-count {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.donut-chart > .success {
+    fill: var(--Color-VI);
+}
+
+.donut-chart > .neutral,
+.donut-chart > .skipped,
+.donut-chart > .stale {
+    fill: var(--Dark-II)
+}
+
+.progress-bar {
+    background: var(--Dark-II)
+}
+
+.project-column {
+    background: var(--Dark-II);
+    border-radius: 7px !important;
+}
+
+.project-card {
+    background: var(--Dark-III)
+}
+
+.Label--success {
+    background-color: var(--Color-VI) !important;
+    border: none;
+    color: var(--Dark-III);
+}
+
+.select-menu-modal,
+.select-menu-filters,
+.select-menu-header {
+    background-color: var(--Dark-II);
+    border: none;
+    box-shadow: none;
+}
+
+.session-authentication,
+.session-authentication .auth-form-body {
+    background: var(--Dark-I);
+    border: none;
+}
+
+.notification-indicator .mail-status,
+.notification-indicator:hover .mail-status {
+    background: var(--Accent-I);
+    border: 2px solid var(--Dark-I);
+}
+
+.filter-item,
+.notifications-list-item .notification-list-item-link {
+    color: var(--Light-I) !important;
+}
+
+.notifications-list-item.notification-archived,
+.notifications-list-item.notification-read {
+    background-color: var(--Dark-II) !important;
+}
+
+.btn-danger,
+.btn-danger.disabled,
+.btn-danger:disabled,
+.btn-danger[aria-disabled="true"] {
+    background: var(--Color-II);
+    color: var(--Light-I)
+}
+
+.form-control,
+.form-select {
+    border: none;
+}
+
+.flash .octicon {
+    color: var(--Light-I);
+}
+
+.range-editor,
+.branch-action-item,
+.cm-s-github-light.CodeMirror {
+    background: var(--Dark-I);
+    border: none;
+}
+
+.form-group .form-control,
+.form-group .form-control:focus {
+    background-color: var(--Dark-II);
+}
+
+.form-group.warn .warning {
+    background-color: var(--orange);
+    color: var(--Light-I);
+    border: none;
+}
+
+.reponame-suggestion {
+    color: var(--Color-VI);
+}
+
+.form-group.required .form-group-header label::after,
+.form-group.required dt label::after {
+    color: var(--Color-II);
+}
+
+.access-token.new-token {
+    background: var(--Color-VI);
+    color: var(--Dark-III);
+}
+
+.listgroup-item {
+    color: var(--Light-I);
+}
+
+.form-select {
+    background-color: var(--Dark-I);
+}
+
+.branch-action-body {
+    background: var(--Dark-I);
+    border: none;
+}
+
+.merge-branch-description {
+    color: var(--Light-I)
+}
+
+.hx_page-header-bg {
+    background: var(--Dark-I);
+}
+
+.user-status-circle-badge {
+    background-color: var(--Dark-II) !important;
+    box-shadow: none !important;
+}
+
+.delete-topic-button,
+.topic-tag,
+.topic-tag-action {
+    background: var(--Accent-I);
+    color: var(--Dark-II);
+    border: none;
+}
+
+.review-thread-reply {
+    background: var(--Dark-I);
+}
+
+.color-bg-info-inverse {
+    background: var(--Accent-I) !important;
+    border-bottom-right-radius: 20px;
+}
+
+.commit .commit-title .issue-link {
+    color: var(--Accent-I);
+}
+
+.rgh-conflict-marker svg {
+    color: var(--Color-II);
+}
+
+.BorderGrid-cell {
+    border: none;
+}
+
+.flash > a {
+    color: var(--Light-I);
+}
+
+.flash > a:hover {
+    color: var(--Light-I);
+    text-decoration: none;
+}
+
+.SideNav-item {
+    background: var(--Dark-II);
+    border: none;
+}
+
+.SideNav-item:hover,
+.SideNav-item[aria-current]:not([aria-current="false"]),
+.SideNav-item[aria-selected="true"] {
+    background: var(--Dark-II)
+}
+
+.SideNav-item[aria-current]:not([aria-current="false"])::before,
+.SideNav-item[aria-selected="true"]::before {
+    background: var(--Accent-I);
+}
+
+.flex-shrink-0.col-12.col-md-3.mb-4.mb-md-0 {
+    border-radius: 7px !important;
+}
+
+.color-text-inverse,
+.btn-link:disabled,
+.btn-link:disabled:hover,
+.btn-link[aria-disabled="true"],
+.btn-link[aria-disabled="true"]:hover,
+.discussion-sidebar-heading {
+    color: var(--Light-I) !important;
+}
+
+.discussion-sidebar-item + .discussion-sidebar-item {
+    border: none;
+}
+
+.avatar {
+    box-shadow: none;
+}
+
+a.rgh-highest-rated-comment,
+.rgh-highest-rated-comment {
+    border: 2px solid var(--Color-VI) !important;
+}
+
+.avatar {
+    background: var(--Dark-II) !important;
+}
+
+.text-right.hide-lg.hide-md.hide-sm.hide-xs.mt-2 > .tooltipped.tooltipped-s > svg > g > rect[style*=fill] {
+    fill: var(--Color-VI) !important;
+}
+
+.text-right.hide-lg.hide-md.hide-sm.hide-xs > .tooltipped.tooltipped-s > svg > g > rect[style*=fill] {
+    fill: var(--Color-VI) !important;
+}
+
+.tree-browser-result[aria-selected="true"] .octicon-chevron-right,
+.tree-browser-result mark {
+    color: var(--Accent-I)
+}
+
+.tree-browser-result[aria-selected="true"] {
+    background: var(--Dark-II) !important;
+    border-radius: 7px;
+}
+
+.Box-body.p-0.blob-wrapper.data.type-rust.gist-border-0.rgh-linkified-code {
+    background: var(--Dark-II)
+}
+
+.BtnGroup-item:first-child {
+    border-radius: 0px;
+}
+
+.BtnGroup-item:last-child {
+    border-radius: 0px;
+    margin-left: 8px;
+}
+
+.color-fg-accent {
+    color: var(--Accent-I)!important;
+}
+
+.rgh-hide-watch-and-fork-count details:not([open]) .btn[data-ga-click^="Repository, click Watch"] {
+    border-radius: 7px !important;
+}
+
+.social-count,
+#sponsor-button-repo,
+.rgh-hide-watch-and-fork-count details:not([open]) .btn[data-ga-click^="Repository, click Watch"] {
+    border-bottom-right-radius: 20px !important;
+    border-top-right-radius: 20px;
+}
+
+.btn.btn-sm.btn-with-count,
+#sponsor-button-repo {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.CheckRun,
+.CheckRunContainer {
+    background: var(--Dark-I);
+}
+
+.Box-header {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.markdown-body table tr,
+.markdown-body table tr:nth-child(2n) {
+    background: var(--Dark-II)
+}
+
+.markdown-body table tr,
+.markdown-body table td,
+.markdown-body table th {
+    border: solid 1px var(--Dark-III) !important;
+}
+
+.markdown-body table {
+    border-radius: 7px;
+}
+
+.UnderlineNav {
+    box-shadow: none;
+}
+
+.no-underline,
+a.no-underline {
+    color: var(--Light-I)
+}
+
+.timeline-comment--caret::after,
+.timeline-comment--caret::before,
+.commit-form::after,
+.commit-form::before {
+    display: none !important;
+}
+
+.TimelineItem-avatar {
+    left: -57px;
+}
+
+.pr-toolbar.is-stuck {
+    background: var(--Dark-I);
+}
+
+.color-text-link,
+.color-icon-info {
+    color: var(--Accent-I) !important;
+}
+
+.color-icon-secondary {
+    color: var(--Light-I) !important;
+}
+
+.tabnav-tab,
+.tabnav-tab .octicon {
+    color: var(--Light-I)
+}
+
+.file-navigation-option .input-group .form-control {
+    background: var(--Dark-II)
+}
+
+.note,
+.breadcrumb-item-selected,
+.breadcrumb-item[aria-current]:not([aria-current="false"]) {
+    color: var(--Light-I)
+}
+
+.social-reaction-summary-item:hover {
+    background: var(--Dark-II)
+}
+
+.social-reaction-summary-item {
+    background: var(--Dark-III)
+}
+
+.timeline-comment-label {
+    background: var(--Accent-I)
+}
+
+.color-yellow-7 {
+    color: var(--yellow) !important;
+}
+
+.p-2.mt-n1.mb-n1.ml-n1.btn.btn-octicon.js-wiki-sidebar-toc-toggle-chevron-button {
+    background: var(--Dark-II);
+}
+
+.filter-bar {
+    background: var(--Dark-II);
+    border: none;
+}
+
+.Box-row.px-2.py-2 {
+    background: var(--Dark-II);
+}
+
+.Box-row:last-of-type {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.Box-row:hover {
+    background-color: var(--Dark-III)
+}
+.flex-1.min-width-0 {
+    background: var(--Dark-I);
+}
+
+.color-bg-info {
+    background: var(--Accent-II)
+}
+
+.flex-1.d-flex.flex-items-center.ml-3.min-width-0 {
+    background: var(--Dark-II)
+}
+
+.commit-ref,
+.vcard-detail .octicon {
+    color: var(--Light-I)
+}
+
+.activity-overview-label,
+.activity-overview-percentage {
+    fill: var(--Light-I)
+}
+
+.SelectMenu-item,
+.SelectMenu-header {
+    border: none;
+}
+
+.CodeMirror pre.CodeMirror-line,
+.CodeMirror pre.CodeMirror-line-like,
+.cm-s-github-light .CodeMirror-linenumber,
+.btn-link.code.px-3.px-sm-6.px-lg-3.flex-1.flex-md-auto.selected.tabnav-tab.js-blob-edit-code.js-blob-edit-tab,
+.blob-num,
+.blob-code-inner {
+    background: var(--Dark-II) !important;
+}
+
+.btn-link.code.px-3.px-sm-6.px-lg-3.flex-1.flex-md-auto.selected.tabnav-tab.js-blob-edit-code.js-blob-edit-tab {
+    border-top-left-radius: 20px;
+}
+
+.commit-create .CodeMirror {
+    padding-top: 0;
+}
+
+.blob-num {
+    color: var(--Light-I)
+}
+
+.discussion-post .reply-comment:first-child,
+.discussion-post .reply-comment {
+    background: var(--Dark-I);
+    border: none;
+}
+
+.border-top {
+    border: none !important;
+}
+
+.ajax-pagination-form.js-ajax-pagination.border-top {
+    background: var(--Dark-I);
+}
+
+.border.rounded.color-shadow-medium.color-bg-primary {
+    background: var(--Dark-II) !important;
+    border-radius: 7px !important;
+    box-shadow: none !important;
+}
+
+hr,
+.rule {
+    border: none;
+}
+
+.rgh-clean-dashboard .news > .f4 + div,
+.rgh-clean-dashboard .dashboard-rollup-items .body {
+    border: none !important;
+}
+
+.gisthead {
+    background: var(--Dark-I);
+}
+
+.user-mention {
+    background: transparent !important;
+    color: var(--Light-I) !important;
+}
+
+.rgh-clean-pinned-issues .pinned-issue-item,
+.rgh-clean-pinned-issues .js-pinned-issues-reorder-list {
+    box-shadow: none !important;
+}
+
+#js-issues-toolbar {
+    border-radius: 7px;
+}
+
+#repository-container-header[style*=background-color] {
+    background-color: var(--Dark-I) !important;
+}
+
+.color-bg-default {
+    background-color: var(--Dark-I) !important;
+}
+
+.color-bg-success-emphasis {
+    background-color: var(--Accent-I) !important;
+}
+
+.color-fg-muted,
+.TimelineItem-body {
+    color: var(--Light-I) !important;
+}
+
+.d-inline-flex.flex-row.flex-items-center.text-small > span > svg > circle[style*=stroke] {
+    stroke: var(--Accent-I) !important;
+}
+
+.avatar {
+    border-radius: 7px;
+}
+
+.position-absolute.right-0.left-0.bottom-0.text-center[style*=background],
+.color-bg-subtle {
+    background: var(--Dark-I) !important;
+}
+
+.copyable-terminal {
+    background: var(--Dark-II);
+    border-radius: 7px;
+}
+
+.flash > a {
+    padding: 5px 16px;
+    border-radius: 100px;
+}
+
+.blob-code-inner.blob-code-marker.rgh-observing-whitespace {
+    background: transparent !important;
+}
+
+.flex-auto.col-md-8.col-lg-8.px-3.px-lg-5 {
+    background: var(--Dark-I);
+}
+
+.Link--primary {
+    color: var(--Light-I) !important;
+}
+
+.Box--responsive .Box-header {
+    background: var(--Dark-II) !important;
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+}
+
+.Box-body {
+    background: var(--Dark-II) !important;
+    border-radius: 7px !important;
+    border-bottom: 0px solid var(--Dark-III);
+}
+
+.rgh-clean-dashboard .news > .f4 + div {
+    border-radius: 7px !important;
+}
+
+.orghead {
+    background: var(--Dark-I)
+}
+
+
+
+.rgh-clean-dashboard [role="tabpanel"] [data-repository-hovercards-enabled] > [class] > .body,
+.rgh-clean-dashboard .news > [data-repository-hovercards-enabled] > [class] > .body,
+.rgh-clean-dashboard .dashboard .flex-items-baseline.py-3,
+.rgh-clean-dashboard .dashboard .body > .border-bottom {
+    border: none;
+    border-radius: 7px !important;
+}
+
+.btn-octicon,
+.ActionList-sectionDivider .ActionList-sectionDivider-title {
+    color: var(--Light-I)
+}
+
+.UnderlineNav-item.selected::after,
+.UnderlineNav-item[role="tab"][aria-selected="true"]::after,
+.UnderlineNav-item[aria-current]:not([aria-current="false"])::after,
+.ActionList-item.ActionList-item--navActive:not(.ActionList-item--danger)::after {
+    background: var(--Accent-I)
+}
+
+.UnderlineNav-octicon,
+.ActionList-item-visual,
+.ActionList-item-action,
+.ActionList-item-label {
+    color: var(--Light-I);
+    fill: var(--Light-I);
+}
+
+.color-bg-default.p-3.mt-2.border.color-border-muted.rounded-1.color-shadow-medium.width-full {
+    background: var(--Dark-II) !important;
+    border-radius: 7px !important;
+    box-shadow: none !important;
+}
+
+.blob-code-inner {
+    background-color: red;
+}
+
+.dropdown-menu::after {
+    border: none;
+}
+
+.dropdown-menu-sw::before {
+    border: none;
+}
+
+.dropdown-menu::before {
+    border: none
+}
+
+::-webkit-scrollbar {
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--Dark-II);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--Dark-III);
+    border-radius: 10vw;
+}
+
+.TimelineItem-badge svg:not(:root) {
+    fill: var(--Dark-III)
+}
+
+.footer-octicon {
+    color: var(--Dark-III) !important;
+}
+.js-pick-reaction ul {
+    background-color: var(--Dark-I)
+}
+.drag-and-drop {
+    border: none!important;
+    box-shadow: 0px 0px 20px 0px #0000002b !important;
+}
+.uploaded-files.is-populated {
+    border: none;
+    box-shadow: 0px 0px 20px 0px #0000002b !important;
+}
+
+.flex-md-items-center .subnav-links .subnav-item[aria-current]:not([aria-current=false]) {
+    color: var(--Dark-III);
+}
+.tooltipped svg g rect {
+    fill: var(--Accent-I)!important;
+}
+.Popover-message::after {
+    opacity: 0%;
+}
+.Popover-message::before {
+    opacity: 0%;
+}
+.toggle-user-status-edit:hover .user-status-message-wrapper {
+    color: var(--Accent-I)!important;
+}
+.subnav-item.selected {
+    color: var(--Dark-I)!important;
+}
+.SelectMenu-modal {
+    box-shadow: 0px 0px 20px 0px #0000002b !important;
+}
+}
