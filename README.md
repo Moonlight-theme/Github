@@ -2,8 +2,8 @@
     <img src="https://i.imgur.com/nVXWcZJ.png" width = 150rem/>
 </p>
 <br>
-<h2 align="center"> <b>New Moonlightic Port</b> </h2>
-<p align="center">"The repo name" 🏕
+<h2 align="center"> <b>Moonlight Github</b> </h2>
+<p align="center">"Github" 🏕
 </p>
 
 <br>
@@ -15,7 +15,7 @@
 
 <h2 style="display: flex; flex-direction: row; justify-content: start;"> <img width="15px" alt="Abod1960" src="https://i.imgur.com/ZGdXKdI.png"> Description</h2>
 
--
+A simple moonlight theme for Github.
 
 <h2 style="display: flex; flex-direction: row; justify-content: start;"> <img width="15px" alt="Abod1960" src="https://i.imgur.com/47tcmEc.png"> Utilization</h2>
 
