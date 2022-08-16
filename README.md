@@ -9,7 +9,7 @@
 <br>
 <div align="center">
   
-![1](https://i.imgur.com/cWKJyF5.png)
+![1](https://i.imgur.com/5LmtxqX.png)
 
 </div>
 
@@ -19,13 +19,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras efficitur nulla el
 
 <h2 style="display: flex; flex-direction: row; justify-content: start;"> <img width="15px" alt="Abod1960" src="https://i.imgur.com/47tcmEc.png"> Utilization</h2>
 
-1. copy *file.css* and paste it to **folder\theme**
-2. run *app.exe*
+1. get [stylus](https://add0n.com/stylus.html) extension.
+2. download [moonlight github]()
 3. then... idk 😅
 
-<h2 style="display: flex; flex-direction: row; justify-content: start;"> <img width="15px" alt="Abod1960" src="https://i.imgur.com/nlTtRn7.png"> Gallery</h2>
-
-```Delete this section if the preview was enough```
   
 <h2 style="display: flex; flex-direction: row; justify-content: start;"> <img width="15px" alt="Abod1960" src="https://i.imgur.com/eK12XXt.png"> Author</h2>
 
